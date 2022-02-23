@@ -14,10 +14,14 @@
 ## 關機指令
 1. 打開 terminal
 2. 輸入 halt -p / poweroff / shutdown
+
 ----------選擇 shutdown----------
+
 3. su (change to SuperUcer)
 4. centos
 5. shutdown
+
+<br/>
 
 ## Network Adapter
 
@@ -26,3 +30,6 @@
 2. 機器間可互相看到對方
 3. 機器皆可存取Internet
 4. 適合架設伺服器
+![](https://github.com/yucing/linux/blob/main/picture/Bridge.png)
+
+###
