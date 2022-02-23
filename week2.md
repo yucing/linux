@@ -30,6 +30,64 @@
 2. 機器間可互相看到對方
 3. 機器皆可存取Internet
 4. 適合架設伺服器
+
 ![](https://github.com/yucing/linux/blob/main/picture/Bridge.png)
 
-###
+![](https://github.com/yucing/linux/blob/main/picture/BridgeTest.png)
+
+### NAT
+1. 虛擬機可以看到物理機
+2. 物理機不能看到虛擬機
+3. 虛擬機可連到網路，但無法存取
+4. 有 virtual DHCP server
+
+![](https://github.com/yucing/linux/blob/main/picture/NAT.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/NATTest.png)
+
+### NAT Network
+1. 虛擬機可以互相溝通
+2. 虛擬機可以看到物理機
+3. 物理機不能看到虛擬機
+
+![](https://github.com/yucing/linux/blob/main/picture/NATNetwork.png)
+
+### Host-Only
+1. 產生一個內部網路
+2. 虛擬機可以跟物理機溝通
+3. 虛擬機可以互相溝通
+4. 無法連到 Internet
+
+![](https://github.com/yucing/linux/blob/main/picture/Hostonly.png)
+
+### Internal Network
+1. 只有在同網路虛擬機才能互相通訊
+2. 不能連到其他網路
+
+![](https://github.com/yucing/linux/blob/main/picture/InternalNetwork.png)
+
+## 保護虛擬機
+1. 在 VirtualBox 點選 Take
+2. 建立一個 Snapshot
+
+---------- 還原 ----------
+
+3. 點選要還原的 Snapshot
+4. 點擊 Restore
+
+## 備份虛擬機
+1. 在 VirtualBox 點擊左上角 File
+2. 選擇 Export Application
+3. 選擇要打包的虛擬機
+4. 選擇檔案位置
+5. 匯出
+
+---------- 匯入 ----------
+
+1. 在 VirtualBox 點擊左上角 File
+2. 選擇 Import Application
+3. 找到備份的虛擬機
+4. 匯入
+
+## 補充資料
+[Network mode](https://segmentfault.com/a/1190000018641361)
