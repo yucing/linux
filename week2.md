@@ -33,7 +33,7 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/Bridge.png)
 
-![](https://github.com/yucing/linux/blob/main/picture/BridgeTest.png)
+![](https://github.com/yucing/linux/blob/main/picture/BridgeTest.jpg)
 
 ### NAT
 1. 虛擬機可以看到物理機
@@ -43,7 +43,7 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/NAT.png)
 
-![](https://github.com/yucing/linux/blob/main/picture/NATTest.png)
+![](https://github.com/yucing/linux/blob/main/picture/NATTest.jpg)
 
 ### NAT Network
 1. 虛擬機可以互相溝通
