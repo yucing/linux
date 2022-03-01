@@ -42,8 +42,8 @@
 * status : 查看狀態
 * stop : 停止 (重開機後恢復原來設定)
 * start : 開啟 (重開機後恢復原來設定)
-* disable : 關閉
-* enable : 開啟
+* disable : 永久關閉
+* enable : 永久開啟
 
 ## 服務器名稱
 * httpd : 網路伺服器
