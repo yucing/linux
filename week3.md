@@ -73,6 +73,9 @@
 3. 輸入 getenforce 檢查 SELinux 狀態
 4. 如果不是 Disable 請做下列動作
 5. 輸入 gedit /etc/selinux/config
+6. 將 SELINUX = disabled/enforceing/permissive 改為 disabled
+7. click "save"
+8. 重開機
 
 ## 參考資料
 * [動作指令](https://blog.gtwang.org/linux/linux-basic-systemctl-systemd-service-unit-tutorial-examples/)
