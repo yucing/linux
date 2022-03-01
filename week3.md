@@ -79,3 +79,4 @@
 
 ## 參考資料
 * [動作指令](https://blog.gtwang.org/linux/linux-basic-systemctl-systemd-service-unit-tutorial-examples/)
+* [SELinux](https://dotblogs.com.tw/echo/2017/06/19/linux_selinux_mode)
