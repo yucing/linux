@@ -34,6 +34,12 @@
 ## Linux terminal 指令
 * clear : 清除畫面
 * 控制指令 動作指令 服務器的名稱
+* cd /var/www/html : 切換至網路伺服器儲存位置
+* echo "內容" : 印出 內容
+* echo "內容" > 檔案 : 將要印出的內容丟到檔案裡
+* cat 檔案 : 查看檔案的內容
+
+![](https://github.com/yucing/linux/blob/main/picture/echo.png)
 
 ## 控制指令
 * systemctl : 控制/管理服務器
@@ -56,7 +62,16 @@
 3. 檢查 SELinux 是否關閉
 4. 下載網路伺服器
 5. 檢查 網路伺服器是否開啟
-6. 再到本機的瀏覽器內輸入虛擬機IP
+6. 再到本機的瀏覽器內輸入 虛擬機IP(192.168.56.101)
+
+## 如何製作網頁
+1. 開啟 word
+2. 輸入內容，並使用 'htm' 格式儲存
+3. 上傳到虛擬機
+4. 開啟 puTTy
+5. 切換成 su
+6. 輸入 mv 檔案.htm /var/www/html
+7. 在本機的瀏覽器輸入 虛擬機IP/檔案.htm (192.168.56.101/AAAA.htm)
 
 ## 關閉防火牆步驟
 1. 切換成超級使用者 su
