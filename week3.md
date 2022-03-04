@@ -54,6 +54,9 @@
 1. 檢查 firewalld 狀態是否是 inactive
 2. 檢查 sshd 狀態是否是 running
 3. 檢查 SELinux 是否關閉
+4. 下載網路伺服器
+5. 檢查 網路伺服器是否開啟
+6. 再到本機的瀏覽器內輸入虛擬機IP
 
 ## 關閉防火牆步驟
 1. 切換成超級使用者 su
@@ -65,7 +68,7 @@
 
 ---------- sshd 步驟一樣 ----------
 
-5. 查看 Active 是否為 running
+---------- httpd 步驟一樣 ----------
 
 ## 關閉 SELinux
 1. 切換成超級使用者 su
@@ -77,6 +80,12 @@
 7. click "save"
 8. 重開機
 
+## 下載網路伺服器
+1. 切換成 su
+2. 輸入 yum install httpd
+3. click 'y'
+
 ## 參考資料
 * [動作指令](https://blog.gtwang.org/linux/linux-basic-systemctl-systemd-service-unit-tutorial-examples/)
+
 * [SELinux](https://dotblogs.com.tw/echo/2017/06/19/linux_selinux_mode)
