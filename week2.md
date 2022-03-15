@@ -21,8 +21,6 @@
 4. centos
 5. shutdown
 
-<br/>
-
 ## Network Adapter
 
 ### Bridge Adapter
@@ -65,6 +63,15 @@
 2. 不能連到其他網路
 
 ![](https://github.com/yucing/linux/blob/main/picture/InternalNetwork.png)
+
+## 複製虛擬機
+1. 右鍵選擇要複製的虛擬機
+2. click 'clone'
+3. 取另一個名字
+4. MAC Address Policy : Generate new MAC address ( 產生新的網路卡卡號 )
+5. click 'next'
+6. 硬碟空間夠 : Full clone ，不夠 : Limit clone
+7. click 'clone'
 
 ## 保護虛擬機
 1. 在 VirtualBox 點選 Take
