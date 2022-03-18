@@ -18,6 +18,14 @@
 
 * | : 管道
 
+### 去除不要的資料
+1. ifconfig | grep inet
+2. ifconfig | grep inet | grep -v inet6
+
+![](https://github.com/yucing/linux/blob/main/picture/inet1.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/inet2.png)
+
 ## 清除所有設定
 1. 進入超級使用者 su
 2. 輸入密碼 (centos)
@@ -41,3 +49,21 @@
 4. ifconfig enp0s3
 
 ![](https://github.com/yucing/linux/blob/main/picture/ether.png)
+
+## Linux terminal 指令
+* df -h : 顯示資料大小
+* history : 查看歷史指令
+* 進入 history 後，輸入 !時間\指令 : 執行先前指令 ( 不用打全名，會從下到上比對指令 )
+
+![](https://github.com/yucing/linux/blob/main/picture/history.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/history2.png)
+
+## 更改主機名稱
+1. 進入超級使用者模式 su
+2. hostnamectl set-hostname 名稱
+3. bash
+
+## 資料
+[Hydra](https://itw01.com/89YGETJ.html)
+[Hydra](https://www.twblogs.net/a/5cad5d1dbd9eee7fd992ab12)
