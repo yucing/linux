@@ -73,6 +73,9 @@
 2. yum install epel-release
 3. yum install hydra
 
+## 使用 Hydra
+* hydra -L user.txt -P passwords.txt -t 4 xx.xx.xx.xx ssh
+
 ## 資料
 [Hydra](https://itw01.com/89YGETJ.html)
 
