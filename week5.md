@@ -64,6 +64,15 @@
 2. hostnamectl set-hostname 名稱
 3. bash
 
+## nmap
+1. 進入超級使用者模式 su
+2. yum install nmap
+
+## Hydra
+1. 進入超級使用者模式 su
+2. yum install epel-release
+3. yum install hydra
+
 ## 資料
 [Hydra](https://itw01.com/89YGETJ.html)
 
