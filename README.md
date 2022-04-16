@@ -6,4 +6,4 @@
 
 [Chapter](https://github.com/yucing/linux/blob/main/chapter.md)
 
-[Exercise](https://github.com/yucing/linux/blob/main/Exercise.md)
+[Exercise](https://github.com/yucing/linux/blob/main/exercise.md)
