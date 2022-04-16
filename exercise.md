@@ -1,1 +1,1 @@
-[Exercise1](https://github.com/yucing/linux/blob/main/Exercise1.md)
+[Exercise1](https://github.com/yucing/linux/blob/main/exercise1.md)
