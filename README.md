@@ -4,6 +4,6 @@
 
 [Week](https://github.com/yucing/linux/blob/main/week.md)
 
-[Chapter](https://github.com/yucing/linux/blob/main/chapter.md)
+[Book](https://github.com/yucing/linux/blob/main/chapter.md)
 
 [Exercise](https://github.com/yucing/linux/blob/main/exercise.md)
