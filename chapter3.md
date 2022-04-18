@@ -3,33 +3,33 @@
 * '#' : 最高權限管理者
 * '$' : 一般使用者
 
-![](https://github.com/yucing/linux/blob/main/picture/command.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/command.png)
 
 ## 資訊
 * 命令提示符號前的中括號提供了三個資訊
 
-![](https://github.com/yucing/linux/blob/main/picture/name.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/name.png)
 
 # 輸入指令
 ## w
 * 列出 Linux 目前登入的使用者帳號資訊
 
-![](https://github.com/yucing/linux/blob/main/picture/w.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/w.png)
 
 ## ls
 * 顯示檔名
 
-![](https://github.com/yucing/linux/blob/main/picture/ls.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/ls.png)
 
 ### ls -l
 * 顯示詳細格式
 
-![](https://github.com/yucing/linux/blob/main/picture/ls-l.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/ls-l.png)
 
 ### ls -a
 * 列出隱藏的所有檔案
 
-![](https://github.com/yucing/linux/blob/main/picture/ls-a.pnd)
+![](https://github.com/yucing/linux/blob/main/picture/ls-a.png)
 
 ### 可寫成 ls -al
 
