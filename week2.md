@@ -6,8 +6,6 @@
 3. Enable Server 打開 / 輸入 Server port
 4. 到 遠端桌面連線 輸入 127.0.0.1:Server port
 
-<br/>
-
 ## 圖形化關機
 * 點擊右上角 / 按下 關機鍵 / poweroff
 
