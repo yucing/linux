@@ -33,8 +33,6 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/hostname.png)
 
-### 
-
 ## pwd v.s echo $PWD
 * pwd : 一個命令
 * echo $PWD : 一個系統環境變數
@@ -50,3 +48,26 @@
 * superuser : /root
 
 ![](https://github.com/yucing/linux/blob/main/picture/homedirectory.png)
+
+## shell 按鍵
+### TAB
+* 快速完成現在輸入的工作
+
+### Ctrl+C
+* 中斷目前的工作
+
+### Ctrl+Z
+* 暫停目前的工作，利用fg可取得暫停的工作
+
+![](https://github.com/yucing/linux/blob/main/picture/shell.png)
+
+### Ctrl+A
+* 游標移到最前面
+
+### Ctrl+E
+* 游標移到最後面
+
+## 指令 [選項] [參數]
+### ls
+
+![](https://github.com/yucing/linux/blob/main/picture/c2.png)
