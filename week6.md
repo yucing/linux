@@ -31,6 +31,14 @@
 ### hostname
 * 查看目前主機名稱
 
+### man 指令
+* 得到指令的完整用法
+* Ex: man ls
+
+![](https://github.com/yucing/linux/blob/main/picture/man1.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/man2.png)
+
 ![](https://github.com/yucing/linux/blob/main/picture/hostname.png)
 
 ## pwd v.s echo $PWD
@@ -69,5 +77,37 @@
 
 ## 指令 [選項] [參數]
 ### ls
+* 列出目前所在目錄的檔案
+
+![](https://github.com/yucing/linux/blob/main/picture/c3.png)
+
+### ls -l -h ( ls -lh )
+* 列出所在目錄的檔案，並顯示出檔案的大小 (用符號表示)
+
+![](https://github.com/yucing/linux/blob/main/picture/c4.png)
+
+### ls -a
+* 列出隱藏的檔案
+
+![](https://github.com/yucing/linux/blob/main/picture/c5.png)
+
+### ls -l /tmp
+* 列出 /tmp 的詳細檔案
 
 ![](https://github.com/yucing/linux/blob/main/picture/c2.png)
+
+## 新增使用者
+* su 模式下使用
+1. adduser 名稱
+2. 照著步驟做
+
+## 切換使用者
+* su - 使用者
+
+## 變更密碼
+### 一般使用者
+* passwd --> 僅能更改自己的密碼
+
+### 超級使用者
+* 方法一 : passwd 使用者 --> 可更改任意使用者
+* 方法二 : echo "密碼" | passwd --stdin 使用者 -->
