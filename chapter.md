@@ -5,3 +5,5 @@
 [Chapter3](https://github.com/yucing/linux/blob/main/chapter3.md)
 
 [Chapter4](https://github.com/yucing/linux/blob/main/chapter4.md)
+
+[Chapter5](https://github.com/yucing/linux/blob/main/chapter5.md)
