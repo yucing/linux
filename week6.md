@@ -31,6 +31,8 @@
 ### hostname
 * 查看目前主機名稱
 
+![](https://github.com/yucing/linux/blob/main/picture/hostname.png)
+
 ### man 指令
 * 得到指令的完整用法
 * Ex: man ls
@@ -38,8 +40,6 @@
 ![](https://github.com/yucing/linux/blob/main/picture/man1.png)
 
 ![](https://github.com/yucing/linux/blob/main/picture/man2.png)
-
-![](https://github.com/yucing/linux/blob/main/picture/hostname.png)
 
 ## pwd v.s echo $PWD
 * pwd : 一個命令
