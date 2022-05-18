@@ -98,6 +98,7 @@
 
 ## 新增使用者
 * su 模式下使用
+* cd /home : 可察看使用者
 1. adduser 名稱
 2. 照著步驟做
 
@@ -111,3 +112,8 @@
 ### 超級使用者
 * 方法一 : passwd 使用者 --> 可更改任意使用者
 * 方法二 : echo "密碼" | passwd --stdin 使用者 --> 可直接更改密碼
+
+## shutdown 指令
+* shutdown -h now : 關機
+* shutdown -h +分鐘 : 幾分鐘後關機
+* shutdown -r now : 重新啟動
