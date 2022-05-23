@@ -11,3 +11,5 @@
 [Week6](https://github.com/yucing/linux/blob/main/week6.md)
 
 [Week7](https://github.com/yucing/linux/blob/main/week7.md)
+
+[Week8](https://github.com/yucing/linux/blob/main/week8.md)
