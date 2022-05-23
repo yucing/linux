@@ -36,6 +36,7 @@
 
 ## Linux 指令
 * ls -l 資料夾 -d : 查看資料夾的權限
+* ls -l -d 資料夾 : 查看資料夾的權限
 * stat 檔案 : 查看檔案時間
 
 ![](https://github.com/yucing/linux/blob/main/picture/stat.png)
