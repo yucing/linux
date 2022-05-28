@@ -57,9 +57,11 @@
 ![](https://github.com/yucing/linux/blob/main/picture/tail.png)
 
 ## EOF
-* cat <<EOF > a.txt : 產生一個 a.txt 的檔案，而且可持續輸入直到輸入 EOF 
+* cat <<符號 > a.txt : 產生一個 a.txt 的檔案，而且可持續輸入直到輸入 符號 
 
 ![](https://github.com/yucing/linux/blob/main/picture/cat.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/cat2.png)
 
 ## 編譯核心
 * 選擇 longterm 版本
