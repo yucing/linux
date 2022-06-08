@@ -20,6 +20,18 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/df.png)
 
+* ll -h ( ls -l -h )
+
+![](https://github.com/yucing/linux/blob/main/picture/ll1.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/ll2.png)
+
+* du : 目前目錄下的已用空間
+
+![](https://github.com/yucing/linux/blob/main/picture/du.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/du.png)
+
 ## 腳本( 暫時 )
 1. export PATH=$PATH:/檔案位置
 2. 輸入執行檔
@@ -45,3 +57,20 @@
 4. 輸入 echo $PATH
 
 ![](https://github.com/yucing/linux/blob/main/picture/echo3.png)
+
+## 改變指令輸出
+* > : 重導
+* echo "" > a.txt == echo "" 1> a.txt
+
+![](https://github.com/yucing/linux/blob/main/picture/echo4.png)
+
+### 將錯誤訊息放入檔案
+* ls /aaa 2>error.txt
+
+![](https://github.com/yucing/linux/blob/main/picture/error.png)
+
+### 多重指令
+* ls /tmp /aaa 1>a.txt 2>&1
+* &1 : 錯誤輸出跟標準輸出放在同一位置
+
+![](https://github.com/yucing/linux/blob/main/picture/error2.png)
