@@ -1,6 +1,9 @@
 # 5/10 第十一週 Linux 課程
 
 ## grep 用法
+
+[grep](https://dotblogs.com.tw/xerion30476/2021/05/21/Linux)
+
 1. grep 尋找名稱 搜尋位置
 2. cat 搜尋位置 | grep 尋找名稱
 
@@ -27,16 +30,52 @@
 ![](https://github.com/yucing/linux/blob/main/picture/grep5.png)
 
 * 有時搭配 --include="" 使用
-* 
+* grep -r "東西" --include="*.格式" 搜尋位置
 
 ![](https://github.com/yucing/linux/blob/main/picture/grep6.png)
 
 ### 參數五 : -A n 顯示後 n 行
-* 
+* grep -A 搜尋名稱 搜尋位置
 
 ![](https://github.com/yucing/linux/blob/main/picture/grep7.png)
 
-[grep](https://dotblogs.com.tw/xerion30476/2021/05/21/Linux)
+![](https://github.com/yucing/linux/blob/main/picture/grep9.png)
+
+### 參數六 : -B n 顯示前 n 行
+* grep -B 搜尋名稱 搜尋位置
+
+![](https://github.com/yucing/linux/blob/main/picture/grep8.png)
+
+### 參數七 : -C n 顯示前後 n 行
+* grep -C 搜尋名稱 搜尋位置
+
+![](https://github.com/yucing/linux/blob/main/picture/grep10.png)
+
+## grep 正規表示法
+### a 開頭
+* grep "^a"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep11.png)
+
+### a 結尾
+* grep "a$"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep12.png)
+
+### a或b 開頭
+* grep "^[ab]"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep13.png)
+
+### a或b 結尾
+* grep "[ab]$"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep14.png)
+
+### 排除空白行
+* grep -v "[^$]"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep15.png)
 
 ## 通配符 wildcrad
 1. *: 任意字符 (0到多個)
