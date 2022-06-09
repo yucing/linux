@@ -22,12 +22,14 @@
 ![](https://github.com/yucing/linux/blob/main/picture/grep4.png)
 
 ### 參數四 : -r 尋找資料夾中的某個東西
+* grep -r "東西" 搜尋位置
 
 ![](https://github.com/yucing/linux/blob/main/picture/grep5.png)
 
 * 有時搭配 --include="" 使用
+* 
 
-![](https://github.com/yucing/linux/blob/main/picture/grep5.png)
+![](https://github.com/yucing/linux/blob/main/picture/grep6.png)
 
 ### 參數五 : -A n 顯示後 n 行
 * 
