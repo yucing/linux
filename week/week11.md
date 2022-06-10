@@ -77,6 +77,21 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/grep15.png)
 
+### a開頭, b出現0次以上
+* grep "^ab*"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep16.png)
+
+### a開頭, b出現0次或1次
+* egrep "^ab?"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep17.png)
+
+### a開頭, b出現1次
+* egrep "^ab+"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep18.png)
+
 ## 通配符 wildcrad
 1. *: 任意字符 (0到多個)
 
