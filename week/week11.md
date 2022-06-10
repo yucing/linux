@@ -119,3 +119,15 @@
 3. []: 中間為字符組合，僅匹配其中任一一個字符
 
 ![](https://github.com/yucing/linux/blob/main/picture/ls3.png)
+
+## vim
+### 操作
+* 進入編輯模式 : i,o,a
+* 進入命令模式 : :
+* 離開 : ESC
+
+### :
+* w : write
+* q : quit
+* wq : write and quit
+* q! : quit and give up modified 
