@@ -92,6 +92,19 @@
 
 ![](https://github.com/yucing/linux/blob/main/picture/grep18.png)
 
+### 含有 ab 或 ac
+* egrep "ab|ac"
+* grep -E "ab|ac"
+
+![](https://github.com/yucing/linux/blob/main/picture/grep19.png)
+
+![](https://github.com/yucing/linux/blob/main/picture/grep20.png)
+
+### 精準篩選出 xxx 字
+* grep -w xxx
+
+![](https://github.com/yucing/linux/blob/main/picture/grep21.png)
+
 ## 通配符 wildcrad
 1. *: 任意字符 (0到多個)
 
