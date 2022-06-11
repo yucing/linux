@@ -1,4 +1,4 @@
-# 5/17 第十二週 Linux 課程111
+# 5/17 第十二週 Linux 課程
 
 ## USB
 * 先在 virtualbox 的 settings 裡面選擇 USB 勾選需要的 USB 類型
