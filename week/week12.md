@@ -11,6 +11,8 @@
 * cd /media : 就可查看 USB 的內容
 * umount /media : 卸載
 
+[USB](https://helloworld.pixnet.net/blog/post/47458574-centos-linux-mount-exfat-%E6%A0%BC%E5%BC%8F%E7%A1%AC%E7%A2%9F)
+
 ## Linux 指令
 * lsblk : 虛擬機磁碟情況
 
