@@ -4,9 +4,9 @@
 
 上課 | 上課內容
 ----|----
-[Week1](https://github.com/yucing/linux/blob/main/week/week1.md) | 1. Winscp <br> 2. 考試
+[Week1](https://github.com/yucing/linux/blob/main/week/week1.md)|1. Winscp <br> 2. 考試
 
-[Week2](https://github.com/yucing/linux/blob/main/week/week2.md) | 1. 遠端桌面 <br> 2. 關機指令 <br> 3. Network Adapter <br> 4. 複製虛擬機
+[Week2](https://github.com/yucing/linux/blob/main/week/week2.md)|1. 遠端桌面 <br> 2. 關機指令 <br> 3. Network Adapter <br> 4. 複製虛擬機
 
 [Week3](https://github.com/yucing/linux/blob/main/week/week3.md) | 1. putty <br> 2. winscp <br> 3. echo <br> 4. cat <br> 5. httpd
 
